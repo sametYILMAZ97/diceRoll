@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+/* Colours  */
+:root {
+    --c1: #006200 ;
+    --c2: #ff9c2a ;
+    --c3: #ff4025 ;
+    --c4: #3949ab ;
+    --c4: #efefef ;
+    --c5: #4078c0 ;
+    --c6: #6cc644 ;
+    --c7: #bd2c00 ;
+    --c8: #6e5494 ;
+    --c9: #fafafa ;
+    --c10: #f5f5f5 ;
+    --c11: #333 ;
+    --c12: #ff6e6a;
+    --c13:  #b43e49;
+
+}
+/*     for use
+    color:  var(--c6) ; */
+
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Bebas Neue', cursive;
+    background-color: var(--c2);
+
+}
+
+.wrapper{
+    width: 700px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.dice-image{
+    width: 200px;
+    height: 200px;
+
+}
+
+.dice-image img{
+    margin-top: 25%;
+    margin-bottom: 25%;
+    margin-left: 50%;
+    width: 100%;
+
+}
+
+.dice-image2{
+    width: 200px;
+    height: 200px;
+
+}
+
+.dice-image2 img{
+    margin-top: 26%;
+    margin-bottom: 25%;
+    margin-left: 50%;
+    width: 100%;
+
+}
+
+.dice-gif {
+    width: 500px;
+    height: 500px;
+
+}
+
+.dice-gif img{    
+    opacity: 3%;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 50%;
+    height: 100%;
+}
+
+.dice-gif2 {
+    width: 500px;
+    height: 500px;
+
+}
+
+.dice-gif2 img{    
+    opacity: 3%;
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    width: 50%;
+    height: 100%;
+}
+
+.heading{
+    margin-top: 5%;
+    margin-bottom: 0%;
+    font-size: 4em;
+    color: var(--c10)
+}
+
+.button{
+    position: relative;
+    left: 20%;
+    top: -45%;
+}
+
+.button button{
+    font-size: 4em;
+    color: var(--c10);
+    border: 10px solid var(--c13);
+    border-radius: 25px;
+    padding: 2%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+.button button:hover{
+    background-color: var(--c6);
+}
+
+#result {
+    text-align: center;
+    font-size: 2em;
+    color: var(--c10);
+    border: 10px solid var(--c13);
+    border-radius: 25px;
+    padding: 2%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    position: relative;
+    width: 155px;
+    left: 20%;
+    top: -44%;
+
+}
